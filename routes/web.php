@@ -5,6 +5,13 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Socialite\Facades\Socialite;
 use App\Http\Controllers\Auth\GoogleAuthController;
 use App\Http\Controllers\Admin\DashboardController as AdminDashboardController;
+use App\Http\Controllers\User\DocumentRequestController;
+//         ];
+//
+//         // Validate the request data
+//         $validatedData = $request->validate($rules);
+//
+//         // --- Store the request ---
 
 Route::get('/', function () {
     return view('welcome');
